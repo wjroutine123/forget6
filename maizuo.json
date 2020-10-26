@@ -1,0 +1,525 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "玄天大老爷",
+      "password": 123456,
+      "roleName": "超级管理员",
+      "roleState": true,
+      "default": true,
+      "roleType": 3
+    },
+    {
+      "username": "小弟",
+      "password": "666",
+      "roleName": "管理员",
+      "roleState": true,
+      "default": false,
+      "roleType": 2,
+      "id": 2
+    }
+  ],
+  "rights": [
+    {
+      "id": 1,
+      "title": "轮播列表",
+      "key": "电影信息-轮播列表",
+      "grade": 1,
+      "category": "电影信息"
+    },
+    {
+      "id": 2,
+      "title": "上映信息",
+      "key": "电影信息-上映",
+      "grade": 1,
+      "category": "电影信息"
+    },
+    {
+      "id": 3,
+      "title": "热映信息",
+      "key": "电影信息-热映",
+      "grade": 1,
+      "category": "电影信息"
+    },
+    {
+      "id": 4,
+      "title": "电影详情",
+      "key": "电影信息-电影详情",
+      "grade": 1,
+      "category": "电影信息"
+    },
+    {
+      "id": 5,
+      "title": "影院信息",
+      "key": "电影信息-影院信息",
+      "grade": 2,
+      "category": "电影信息"
+    },
+    {
+      "id": 6,
+      "title": "城市定位",
+      "key": "电影信息-城市定位",
+      "grade": 2,
+      "category": "电影信息"
+    },
+    {
+      "id": 7,
+      "title": "用户列表",
+      "key": "用户管理-用户列表",
+      "grade": 3,
+      "category": "用户管理"
+    },
+    {
+      "id": 8,
+      "title": "添加用户",
+      "key": "用户管理-添加用户",
+      "grade": 3,
+      "category": "用户管理"
+    },
+    {
+      "id": 9,
+      "title": "删除用户",
+      "key": "用户管理-删除用户",
+      "grade": 3,
+      "category": "用户管理"
+    },
+    {
+      "id": 10,
+      "title": "修改用户",
+      "key": "用户管理-修改用户",
+      "grade": 3,
+      "category": "用户管理"
+    },
+    {
+      "id": 11,
+      "title": "角色列表",
+      "key": "权限管理-角色列表",
+      "grade": 3,
+      "category": "权限管理"
+    },
+    {
+      "id": 12,
+      "title": "权限列表",
+      "key": "权限管理-权限列表",
+      "grade": 3,
+      "category": "权限管理"
+    },
+    {
+      "id": 13,
+      "title": "添加角色",
+      "key": "权限管理-添加角色",
+      "grade": 3,
+      "category": "权限管理"
+    },
+    {
+      "id": 14,
+      "title": "修改角色",
+      "key": "权限管理-修改角色",
+      "grade": 3,
+      "category": "权限管理"
+    },
+    {
+      "id": 15,
+      "title": "删除角色",
+      "key": "权限管理-删除角色",
+      "grade": 3,
+      "category": "权限管理"
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "roleName": "超级管理员",
+      "roleRight": [
+        {
+          "category": "电影信息",
+          "list": [
+            "轮播列表",
+            "上映信息",
+            "热映信息",
+            "电影详情",
+            "影院信息",
+            "城市定位"
+          ]
+        },
+        {
+          "category": "用户管理",
+          "list": [
+            "用户列表",
+            "添加用户",
+            "删除用户",
+            "修改用户"
+          ]
+        },
+        {
+          "category": "权限管理",
+          "list": [
+            "角色列表",
+            "权限列表",
+            "添加角色",
+            "修改角色",
+            "删除角色"
+          ]
+        }
+      ],
+      "default": true
+    },
+    {
+      "id": 2,
+      "roleName": "管理员",
+      "roleRight": [
+        {
+          "category": "电影信息",
+          "list": [
+            "轮播列表",
+            "上映信息",
+            "热映信息",
+            "电影详情",
+            "影院信息",
+            "城市定位"
+          ]
+        }
+      ],
+      "default": false
+    },
+    {
+      "id": 3,
+      "roleName": "前台",
+      "roleRight": [
+        {
+          "category": "电影信息",
+          "list": [
+            "轮播列表",
+            "上映信息",
+            "热映信息",
+            "电影详情"
+          ]
+        }
+      ],
+      "default": false
+    }
+  ],
+  "gateway": [
+    {
+      "actors": [
+        {
+          "avatarAddress": "https://pic.maizuo.com/usr/movie/7a46bbf45702ceb4af370cb9216637dc.jpg",
+          "name": "陈可辛",
+          "role": "导演"
+        },
+        {
+          "avatarAddress": "https://pic.maizuo.com/usr/movie/ba6a7e0d2aca7c8524ba49b684ce04d2.jpg",
+          "name": "巩俐",
+          "role": "郎平"
+        },
+        {
+          "avatarAddress": "https://pic.maizuo.com/usr/movie/2d5501fb41248d1a69bf872bd70dcb7c.jpg",
+          "name": "黄渤",
+          "role": "陈忠和"
+        }
+      ],
+      "poster": "https://pic.maizuo.com/usr/movie/75d95b53eed62b9df354695a0578fc0c.jpg",
+      "item": {
+        "name": "2D",
+        "type": 1
+      },
+      "grade": 7.2,
+      "nation": "中国大陆,中国香港",
+      "runtime": 135,
+      "id": 1,
+      "name": "中国女排"
+    }
+  ],
+  "hotway": [
+    {
+      "actors": [
+        {
+          "avatarAddress": "https://pic.maizuo.com/usr/movie/7a46bbf45702ceb4af370cb9216637dc.jpg",
+          "name": "陈可辛",
+          "role": "导演"
+        },
+        {
+          "avatarAddress": "https://pic.maizuo.com/usr/movie/ba6a7e0d2aca7c8524ba49b684ce04d2.jpg",
+          "name": "巩俐",
+          "role": "郎平"
+        },
+        {
+          "avatarAddress": "https://pic.maizuo.com/usr/movie/2d5501fb41248d1a69bf872bd70dcb7c.jpg",
+          "name": "黄渤",
+          "role": "陈忠和"
+        }
+      ],
+      "poster": "https://pic.maizuo.com/usr/movie/75d95b53eed62b9df354695a0578fc0c.jpg",
+      "name": "夺冠",
+      "item": {
+        "name": "2D",
+        "type": 1
+      },
+      "grade": 7.2,
+      "nation": "中国大陆,中国香港",
+      "runtime": 135,
+      "id": 1
+    }
+  ],
+  "movieway": [
+    {
+      "id": 1,
+      "name": "SFC上影影城（新世界店）",
+      "address": "上海市黄浦区南京西路2-68号新世界12楼",
+      "lowPrice": 3800
+    }
+  ],
+  "citiesway": [
+    {
+      "id": 1,
+      "pinyin": "anshan",
+      "name": "鞍山"
+    },
+    {
+      "name": "大同",
+      "pinyin": "datong",
+      "id": 2
+    },
+    {
+      "name": "北京",
+      "pinyin": "beijing",
+      "id": 3
+    }
+  ],
+  "detailway": [
+    {
+      "actors": [
+        {
+          "avatarAddress": "https://pic.maizuo.com/usr/movie/7a46bbf45702ceb4af370cb9216637dc.jpg",
+          "name": "陈可辛",
+          "role": "导演"
+        },
+        {
+          "avatarAddress": "https://pic.maizuo.com/usr/movie/ba6a7e0d2aca7c8524ba49b684ce04d2.jpg",
+          "name": "巩俐",
+          "role": "郎平"
+        },
+        {
+          "avatarAddress": "https://pic.maizuo.com/usr/movie/2d5501fb41248d1a69bf872bd70dcb7c.jpg",
+          "name": "黄渤",
+          "role": "陈忠和"
+        }
+      ],
+      "poster": "https://pic.maizuo.com/usr/movie/75d95b53eed62b9df354695a0578fc0c.jpg",
+      "name": "夺冠",
+      "item": {
+        "name": "2D",
+        "type": 1
+      },
+      "grade": 7.2,
+      "nation": "中国大陆,中国香港",
+      "runtime": 135,
+      "id": 1,
+      "category": "剧情",
+      "premiereAt": 1601424000,
+      "synopsis": "2008年8月15日，北京奥运会女排比赛，中国VS美国。戴着金丝框眼镜的郎平（巩俐 饰）坐在美国队教练席上，大气沉稳，目光如电；中国队教练陈忠和（黄渤 饰）站在场边，全神贯注，面带笑容。陈忠和望向郎平，目光充满深意，不断经过的人影遮蔽了他的视线，中国女排三十余年的沉浮图景被缓缓打开……",
+      "photos": [
+        "https://pic.maizuo.com/usr/2020/879541bdc61e0e8ac436e26931b4157c.jpg",
+        "https://pic.maizuo.com/usr/2020/c43501dd63fbf60f095ff0e8a3d2f828.jpg",
+        "https://pic.maizuo.com/usr/2020/d6c6838f8950eed81581bfe3112deb81.jpg",
+        "https://pic.maizuo.com/usr/2020/ea3c80e41d77160c518959082789be5a.jpg",
+        "https://pic.maizuo.com/usr/2020/fa5c4be2dd31091db2eafad069e72fc2.jpg"
+      ]
+    }
+  ],
+  "swiperway": [
+    {
+      "img": "https://static.maizuo.com/v5/upload/189bcf606b4bf49ad5de201a2ea5024d.jpg?x-oss-process=image/quality,Q_70",
+      "id": 0
+    },
+    {
+      "img": "https://static.maizuo.com/pc/v5/usr/movie/c44ea8d1ae6d86184a9ed602cd98c3d2.jpg?x-oss-process=image/quality,Q_70",
+      "id": 1
+    },
+    {
+      "img": "https://static.maizuo.com/pc/v5/usr/movie/c9a22f907d369db7693218dbeda2de4d.jpg?x-oss-process=image/quality,Q_70",
+      "id": 3
+    }
+  ],
+  "deskway": [
+    {
+      "username": "张三",
+      "password": "12345678",
+      "id": 1
+    }
+  ],
+  "ployway": [
+    {
+      "username": "玄天大老爷",
+      "sign": [
+        "今天未签到",
+        1601957419643,
+        1602205651103
+      ],
+      "signday": 2,
+      "id": 1
+    },
+    {
+      "username": "小弟",
+      "sign": [
+        "今天未签到"
+      ],
+      "signday": 0,
+      "id": 2
+    }
+  ],
+  "recruitway": [
+    {
+      "title": "前端",
+      "value": "前端",
+      "id": 111,
+      "default": true,
+      "grade": 2,
+      "children": [
+        {
+          "title": "Vue",
+          "value": "Vue",
+          "id": 1111,
+          "default": true,
+          "grade": 3
+        },
+        {
+          "title": "React",
+          "value": "React",
+          "id": 1112,
+          "default": true,
+          "grade": 3
+        },
+        {
+          "title": "Angular",
+          "value": "Angular",
+          "id": 1113,
+          "default": true,
+          "grade": 3
+        },
+        {
+          "title": "小程序",
+          "value": "小程序",
+          "id": 1114,
+          "default": true,
+          "grade": 3
+        }
+      ]
+    },
+    {
+      "title": "Java",
+      "value": "Java",
+      "id": 112,
+      "default": true,
+      "grade": 2
+    },
+    {
+      "title": "Python",
+      "value": "Python",
+      "id": 113,
+      "default": true,
+      "grade": 2
+    },
+    {
+      "title": "PHP",
+      "value": "PHP",
+      "id": 114,
+      "default": true,
+      "grade": 2
+    },
+    {
+      "author": "admin",
+      "id": 115
+    },
+    {
+      "author": "admin",
+      "id": 116
+    },
+    {
+      "author": "admin",
+      "id": 117
+    }
+  ],
+  "recruitmessageway": [
+    {
+      "title": "总管",
+      "position": "IT",
+      "place": "大连",
+      "welfare": "100000",
+      "contacts": "护盾",
+      "phone": "66666",
+      "introduce": "第一富豪",
+      "email": "4569785@qq.com",
+      "id": 1
+    },
+    {
+      "title": "画家",
+      "position": "会",
+      "place": "山海",
+      "welfare": "800000",
+      "contacts": "大鼓",
+      "phone": "88888888888",
+      "introduce": "得分得分",
+      "email": "1849999999@qq.com",
+      "id": 2
+    }
+  ],
+  "leaveway": [
+    {
+      "title": "请假原因",
+      "content": "<p><strong>不想干了</strong></p>\n<p></p>\n<img src=\"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1601004852260&di=df096711afc48ed358f6fbe835743987&imgtype=0&src=http%3A%2F%2Fa0.att.hudong.com%2F70%2F91%2F01300000261284122542917592865.jpg\" alt=\"undefined\" style=\"height: auto;width: auto\"/>\n<p></p>\n",
+      "author": "小老弟",
+      "ismange": false,
+      "id": 1
+    },
+    {
+      "title": "请假原因",
+      "content": "<p><strong>去考试</strong></p>\n<p></p>\n<img src=\"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1601004852260&di=df096711afc48ed358f6fbe835743987&imgtype=0&src=http%3A%2F%2Fa0.att.hudong.com%2F70%2F91%2F01300000261284122542917592865.jpg\" alt=\"undefined\" style=\"height: auto;width: auto\"/>\n<p></p>\n",
+      "author": "张宇",
+      "ismange": false,
+      "id": 2
+    },
+    {
+      "title": "请假原因",
+      "content": "<p><strong>感冒</strong></p>\n<p></p>\n<img src=\"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1601004852260&di=df096711afc48ed358f6fbe835743987&imgtype=0&src=http%3A%2F%2Fa0.att.hudong.com%2F70%2F91%2F01300000261284122542917592865.jpg\" alt=\"undefined\" style=\"height: auto;width: auto\"/>\n<p></p>\n",
+      "author": "周澜",
+      "ismange": false,
+      "id": 3
+    },
+    {
+      "title": "请假原因",
+      "content": "<p><strong>不想干了</strong></p>\n<p></p>\n<img src=\"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1601004852260&di=df096711afc48ed358f6fbe835743987&imgtype=0&src=http%3A%2F%2Fa0.att.hudong.com%2F70%2F91%2F01300000261284122542917592865.jpg\" alt=\"undefined\" style=\"height: auto;width: auto\"/>\n<p></p>\n",
+      "author": "小老弟",
+      "ismange": false,
+      "id": 4
+    },
+    {
+      "title": "请假原因",
+      "content": "<p><strong>身体不舒服</strong></p>\n<p></p>\n<img src=\"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1601004852260&di=df096711afc48ed358f6fbe835743987&imgtype=0&src=http%3A%2F%2Fa0.att.hudong.com%2F70%2F91%2F01300000261284122542917592865.jpg\" alt=\"undefined\" style=\"height: auto;width: auto\"/>\n<p></p>\n",
+      "author": "张宇",
+      "ismange": false,
+      "id": 5
+    },
+    {
+      "title": "请假原因",
+      "content": "<p><strong>做手术</strong></p>\n<p></p>\n<img src=\"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1601004852260&di=df096711afc48ed358f6fbe835743987&imgtype=0&src=http%3A%2F%2Fa0.att.hudong.com%2F70%2F91%2F01300000261284122542917592865.jpg\" alt=\"undefined\" style=\"height: auto;width: auto\"/>\n<p></p>\n",
+      "author": "张宇",
+      "ismange": false,
+      "id": 6
+    },
+    {
+      "title": "请假原因",
+      "content": "<p>不想干了</p>\n",
+      "author": "刘文灏",
+      "ismange": false,
+      "id": 7
+    },
+    {
+      "title": "请假原因",
+      "content": "<p>跟自己请假</p>\n",
+      "author": "玄天大老爷",
+      "ismange": true,
+      "id": 8
+    }
+  ]
+}
