@@ -1,0 +1,11 @@
+1./home
+2.rights-mange/roles
+3.rights-mange/rights
+4.users-mange/users
+5.films-mange/swipers
+6.films-mange/oncoming
+7.films-mange/hot
+8.films-mange/movies
+9.films-mange/buliding
+10.films-mange/moviedetail
+11./login
